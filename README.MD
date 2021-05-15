@@ -15,6 +15,8 @@ Com o teste técnico, tive a oportunidade de mostrar um código semântico e bem
 - Metodologia BEM de classes e css
 - Funções js semânticas de fácil entendimento
 
+Usando a extensão Lighthouse do Google, verica-se as melhores práticas e acessibilidade:
+
 ![image](https://user-images.githubusercontent.com/69217399/118370432-0a679780-b57e-11eb-8238-8c5e2ee35ba4.png)
 
 ## Funcionalidades
