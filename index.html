@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Aerolito</title>
+    <meta name="description" content="Educação é tudo, venha aprender com um dos cursos da Aerolito.">
+
+    <!-- Importando Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap" rel="stylesheet">
+
+    <!-- Importando CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    
+    <!-- Importando JS -->
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <img src="images/Ativo 1.svg" class="header__logo" alt="Logo da Aerolito"></img>
+
+        <nav id="navLinks" class="header__menu">
+            <a class="header__menu__link">HOME</a>
+            <a class="header__menu__link">MANIFESTO</a>
+            <a class="header__menu__link">CURSOS ONLINE</a>
+            <img class="header__menu__image" src="images/Ativo 3.svg" alt="Usuário"></img>
+            <img class="header__menu__image" src="images/Ativo 2.svg" alt="Carrinho de compras"></img>
+        </nav>
+
+        <!-- <p class="icon" >SSS</p> -->
+        <div id="menuToggle" class="header__button" onclick="openMenuMobile()">
+            <span class="header__button__line"></span>
+            <span class="header__button__line"></span>
+            <span class="header__button__line"></span>
+        </div>
+    </header>
+    <main class="content">
+        <button class="content__button" id="button" onclick="toggleModal('open')">BAIXAR ARQUIVO</button>
+
+        <div class="content__modal" id="modal" name="modal" style="display: none;">
+            <img class="content__modal__close" src="images/Ativo 4.svg" alt="Fechar" onclick="toggleModal('close')">
+            <section>
+                <h1 class="content__modal__title">BAIXAR <br> ARQUIVO</h1>
+                <p class="content__modal__paragraph">Espere por 30 segundos <br> para que o arquivo seja <br> disponibilizado</p>
+                <p class="content__modal__alert">Seu download será iniciado <br> automaticamente</p>
+            </section>
+            <p id="timer" name="timer" class="content__modal__timer">0:30</p>
+        </div>
+    </main>
+    
+    <div id="modalBackground" name="modalBackground" class="modal-background" style="display: none;"></div>
+</body>
+</html>
