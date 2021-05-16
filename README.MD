@@ -14,6 +14,7 @@ Com o teste técnico, tive a oportunidade de mostrar um código semântico e bem
 - Tags HTML semânticas e modernas
 - Metodologia BEM de classes e css
 - Funções js semânticas de fácil entendimento
+- Mobile friendly
 
 Usando a extensão Lighthouse do Google, verica-se as melhores práticas e acessibilidade:
 
